@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
                 // All location settings are satisfied. The client can initialize
                 // location requests here.
                 // ...
-                Toast.makeText(MainActivity.this,"Todo al 100",Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this,"Correcto",Toast.LENGTH_LONG).show();
             }
         });
 
@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
                                 REQUEST_CHECK_SETTINGS);
                     } catch (IntentSender.SendIntentException sendEx) {
                         // Ignore the error.
-                        Toast.makeText(MainActivity.this,"Ocurrio un error",Toast.LENGTH_LONG).show();
+                        Toast.makeText(MainActivity.this,"Error",Toast.LENGTH_LONG).show();
                     }
                 }
             }
